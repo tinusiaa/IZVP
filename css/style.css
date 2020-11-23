@@ -119,6 +119,7 @@ nav {
   float: left;
   width: 90px;
   padding: 12px 25px;
+  outline: none;
   background: rgba(56, 83, 216, 0.9);
   color: white;
   font-size: 18px;
@@ -309,4 +310,74 @@ article a {
 	color: #080c1e;
 }
 
+#newsletter {
+	background: #000 url('../images/footer.jpg') no-repeat center;
+	background-size: cover;
+	padding: 95px 0;
+}
 
+#newsletter p {
+	font-family: 'Alegreya', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 22px;
+	text-align: center;
+}
+
+#newsletter p span {
+	text-transform: none;
+}
+
+#email form {
+	margin: 0 auto;
+  	max-width: 550px;
+  	padding-top: 25px;
+}
+
+#email form input[type=email] {
+  outline: none;
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  float: left;
+  width: 415px;
+  background: #f1f1f1;
+  color: #6074dc;
+}
+
+#email form input[type=email]::placeholder {
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	color: #6074dc;
+}
+
+#email form button {
+  float: left;
+  width: 90px;
+  padding: 20px 25px;
+  outline: none;
+  background: rgba(56, 83, 216, 0.9);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+}
+
+#email form button:hover {
+  opacity: 1;
+}
+
+#email form::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#copyright {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	padding: 190px 0 40px 0;
+}
