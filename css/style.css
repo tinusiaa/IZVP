@@ -83,7 +83,7 @@ nav {
 }
 
 #logo span {
-	border-bottom: 4px solid #3853d8;
+	border-bottom: 4px solid #3366cc;
 }
 
 #menu {
@@ -143,14 +143,13 @@ aside h2 {
 	color: #080c1e;
 	text-transform: uppercase;
 	font-size: 30px;
-	border-bottom: 2px solid #3853d8;	
+	border-bottom: 2px solid #3366cc;	
 }
 
 #main-wrapper .container {
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
-	align-items: center;
 }
 
 aside {
@@ -188,3 +187,126 @@ aside li a {
 aside li a:hover {
 	color: #536add;
 }
+
+article {
+	margin-bottom: 70px;
+}
+
+article:first-child {
+	margin-top: 105px;
+}
+
+.photo-wrapper {
+	position: relative;
+}
+
+.post-photo {
+	width: 100%;
+}
+
+.post-photo img {
+	width: 100%;
+}
+
+.post-date {
+	font-family: 'Alegreya', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #fff;
+	padding: 7px 10px;
+	line-height: 26px;
+	background-color: #2d4cb4;
+	opacity: 0.93;
+	position: absolute;
+	text-align: center;
+	top: 20px;
+	left: 20px;
+}
+
+article b {
+	text-transform: uppercase;
+}
+
+.post-statistic {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	color: #3366cc;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+}
+
+.post-author {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.author-name {
+	padding: 0 10px;
+}
+
+.post-title {
+	font-family: 'Alegreya', sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	color: #080c1e;
+}
+
+.post-title p {
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+article a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding: 15px 39px;
+	background-color: #3366cc;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#pagination {
+	width: 50%;
+}
+
+#pagination ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+
+}
+
+#pagination li {
+	padding: 20px;
+}
+
+#pagination li:hover {
+	background-color: #3366cc;
+
+}
+
+#pagination li:hover a{
+	color: #fff;
+}
+
+.active {
+	background-color: #3366cc;
+}
+
+
+#pagination .active a {
+	color: #fff!important;
+}
+
+#pagination a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #080c1e;
+}
+
+
